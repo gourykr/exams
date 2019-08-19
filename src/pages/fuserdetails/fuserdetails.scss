@@ -1,0 +1,92 @@
+page-fuserdetails {
+.header-parent {
+    position: relative;
+    text-align: center;
+}
+
+
+.header-social {
+        position: absoloute;
+        bottom: 0px;
+        text-align: center;
+        margin-top: -5.5vh;
+    }
+
+.profile {
+        width: 35%;
+        margin: 0 auto;
+        margin-top: -30vh;
+    }
+
+.title-name {
+        color: #fff;
+        margin-top: -2vh;
+    }
+
+.location-icon {
+        color: #fff;
+        font-size: 18px;
+        float: right;
+    }
+
+.counter {
+        text-align: center;
+        margin-top: 10.5vh;
+        margin-left: 1vw;
+    }
+
+.numbers {
+        font-family: open-sans;
+        color: #323e46;
+        font-size: 20px;
+    }
+
+.numbers-title {
+        font-family: open-sans;
+        color: #b7c4cb;
+        font-size: 16px;
+        margin-top: -3vh;
+    }
+
+    .location {
+        font-size: 16px;
+        font-family: open-sans;
+        color: #fff;
+        float: left;
+    }
+
+    .profile-location{
+        margin-top: -2.8vh;
+        margin-right: 36vw;
+    }
+
+    .slides {
+        max-height: 20%;
+        background-color: #f7f8fa;
+    }
+
+    .slide-image {
+        width: 75%;
+    }
+
+    .share-numbers {
+        font-family: open-sans;
+        color: #0091ea;
+        font-size: 16px;
+        margin-top: -6vh; 
+    }
+
+    .card {
+        background: #f5f5f5;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 13, 36, 0.06), 0 2px 4px 0 rgba(0, 8, 25, 0.05);
+        position:relative; 
+        margin: 10px;
+    }
+}
+
+.toast-message {
+    color: white;
+    background-color: #0091ea;
+}

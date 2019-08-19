@@ -1,6 +1,8 @@
 {
   "name": "wedpair",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular",
   "pro_id": "1a32b8f1"
 }

@@ -1,11 +1,58 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Profile
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content padding style="background-color: #ffffff;">
+
+	      <ion-row>
+          <ion-col text-center>
+            <img class="profile-img" src="assets/img/user.jpg" *ngIf="profile.image_url?.length==0" />
+            <img [src]="profile.image_url"  *ngIf="profile.image_url?.length" />
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="prof-name">
+            <h4>{{profile.firstname }} {{profile.lastname }}</h4>
+            <p style="padding-left: 0px !important; padding-top: 0px !important;">{{profile.age }} Year</p>
+            <p>{{profile.state }}</p>
+          </ion-col>
+        </ion-row>
+  <div class="pink-panther">
+
+  <p class="blog02">About {{ profile.firstname }}</p>
+
+  <h6 color="light">{{profile.aboutmyself }} </h6>
+  
+  </div>
+  <div class="pink-panther card">
+
+  <p class="blog02 card-head">Contact Details</p>
+
+  <h6>Mobile: {{ profile.mobile }}</h6>  
+  <h6>Email: {{ profile.email }}</h6>
+  
+
+  </div>
+  <div class="pink-panther card">
+
+  <p class="blog02 card-head" style="font-size: 20px;">Other Details</p>
+
+  <h6>Height: {{ profile.height }}</h6>
+  <h6>Weight: {{ profile.weight }}</h6>
+  <h6>Marital Status: {{ profile.maritalstatus }}</h6>
+  <h6>Religion: {{ profile.religion }}</h6>
+  <h6>Caste: {{ profile.caste }}</h6>
+  <h6>Mother Tongue: {{ profile.caste }}</h6>
+  <h6>Complexion : {{ profile.complexion }}</h6>
+  <h6> Manglik : {{ profile.manglik }}</h6>
+  <h6> Gotra : {{ profile.gotra }}</h6>
+  <h6> Date of Birth : {{ profile.day }} - {{ profile.month }}-{{ profile.year }}</h6>
+  <h6> Place of Birth : {{ profile.placeofbirth }}</h6>
+  
+  </div>
 
 </ion-content>

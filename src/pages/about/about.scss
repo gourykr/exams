@@ -1,3 +1,112 @@
 page-about {
 
+.backgound-image {
+  background-image:url('../assets/img/background/banner.png');
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.searchbar-md .searchbar-input {
+    padding: 6px 55px;
+    border-radius: 25px;
+    background-position: left 8px center;
+    height: auto;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #141414;
+}
+.searchbar-input {
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    border: 0;
+    font-family: inherit;
+}
+
+.tag02 {
+        // position: absolute;
+        font-family: open-sans;
+        color: #b7c4cb;
+        float: right;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .avatar03 {
+       float: left;
+       margin-top: 5px;
+       width: 7%;
+    }
+
+    .blog03 {
+        position: absolute;
+        font-family: open-sans;
+        font-size: 12px;
+        color: map-get($colors, primary) !important;
+        margin-top: 9px;
+        left: 10vw;
+    }
+
+    .tag03 {
+        // position: absolute;
+        font-family: open-sans;
+        color: #b7c4cb;
+        float: right;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .grid {
+        background-color: #f7f8fa;
+        padding: 0;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .profile-img {
+        max-width: 100%;
+        border: 0;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 0 10px 20px 0 rgba(0, 13, 36, 0.06), 0 2px 8px 0 rgba(0,13,36,.08);
+    }
+
+    .prof-name {
+        background: #f5f5f5;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 15px;
+        box-shadow: 0 2px 4px 0 rgba(0, 13, 36, 0.06), 0 2px 4px 0 rgba(0, 8, 25, 0.05);
+    }
+
+    .blog02 {
+        font-size: 16px;
+        padding-left: 2px !important;
+        margin-top: 15px;
+    }
+
+    .card-head {
+        padding-left: 0px !important;
+        margin-top: 0px;
+    }
+
+    .card {
+        background: #f5f5f5;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 13, 36, 0.06), 0 2px 4px 0 rgba(0, 8, 25, 0.05);
+        margin-top: 15px;
+    }
+
+    .card h6 {
+        font-weight: 400;
+    }
+
 }
